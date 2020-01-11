@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main()
+{
+  int a=20,i;
+  for(i=0;i<=a;i++)
+  {
+    if(a%2==0)
+    printf("even no are=%d",i);
+    else
+    printf("odd no are=%d",i);
+  }
+  getch();
+}
